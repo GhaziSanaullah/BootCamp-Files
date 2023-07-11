@@ -24,6 +24,10 @@ public abstract class BankAccount : IBankAccount
     public abstract void Withdraw(int amount);
 
     public abstract void DisplayAccountInfo();
+  public string GetAccountNumber()
+    {
+        return AccountNumber;
+    }
 
 
 }
@@ -127,7 +131,7 @@ public class Bank
     {
         foreach (BankAccount account in Accounts)
         {
-            if (account.AccountNumber == accountNumber)
+            if (account.GetAccountNumber() == accountNumber)
             {
                 return account;
             }
