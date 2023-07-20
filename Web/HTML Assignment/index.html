@@ -3,36 +3,69 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>TIS HORTUNZSS COVFEFE</title>
+    <title>The HTML Cafe</title>
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <header>
-        <h1>HTML Assignment-Ghazi Sanaullah (4830)</h1>
+    <header class="top-bar">
+        <p>Open Monday-Saturday 8am-9pm • Sundays 8am-4pm</p>
     </header>
-    <nav>
-        <!-- Add your navigation menu here (if applicable) -->
-    </nav>
-
-
-    <header>
-        <h1>TIS HORTUNZSS COVFEFE</h1>     
-    </header>
-    <section class="banner">
-        <div class="left-text"><h2>Welcome to "TIS HORTUNZSS COVFEFE" - Where Coffee Awakens Dreams!</h2></div>
-        <div class="coffe-mug">
-            <div class="center-image"><img src=coffemug.png></div>
+    <section class="logo-navbar">
+        <div id="logo-div">
+            <img src="logo.png">
         </div>
+        <nav>
+            <ul>
+                <li><button class="order-online">ORDER ONLINE</button></li>
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="menu">MENU</a></li>
+                <li><a href="about">ABOUT</a></li>
+                <li><a href="events">EVENTS</a></li>
+                <li><a href="shop">SHOP</a></li>
+            </ul>
+        </nav>
     </section>
-    <section class="border">
-        <div>
-            <div class="mission-statement">
-                <h2>Mission Statement</h2>
-                <p>"At TIS HORTUNZSS COVFEFE, our mission is to serve more than just coffee; we aim to ignite your imagination and fuel your passions. Through exceptional brews, a vibrant atmosphere, and genuine connections, we strive to create a haven where dreams come to life, one cup at a time."</p>
-            </div>
+    <section class="coffeebanner"><img src="coffeebanner.png"></section>
+    <section class="welcome">
+        <h1>WELCOME</h1>
+        <p class="welcome-para">Welcome to HTML Cafe, where the coffee is strong and the code is delicious. We've got everything you need to fuel your coding addiction, from open source bagels to free range CSS. Our menu is full of HTML puns, so you'll never get bored. Try our "div-er Dan's" breakfast sandwich, or our "href-y Larry" burger. And for dessert, don't forget our "cookie monster" cookies. We also have a full bar, so you can relax and unwind after a long day of coding. Our signature drink is the "CSS cocktail", which is made with gin, lime, and CSS3. So come on down to HTML Cafe and get your fill of code and caffeine. We'll see you there!</p>
+    </section>
+    <section class="bottom">
+        <div class="general info">
+            <h1>THE HTML CAFE</h1>
+            <h4>HOURS</h4>
+            <p>Take-out • indoor & outdoor seating</p>
+            <p>Monday - Friday 9am - 4pm</p>
+            <p>Saturday - Sunday Cook your own food</p>
+            <h4>CONTACT</h4>
+            <p>Phone: 420 69696969</p>
+            <p>General Inquiries:</p>
+            <p>info@curemd.com</p>
+            <p> </p>
+            <p>Gallery and live music bookings: bookings@curemd.com</p>
+            <h4>LOCATION</h4>
+            <p>30 Davis Road</p>
+            <p>Lahore, 54000</p>
         </div>
+        <div class="newslettersubs">
+            <h1>NEWSLETTER</h1>
+            <div class="form">
+                <form>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                
+                    <label for="phone">Phone No:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>  
     </section>
     <section class="major-items">
         <div>
@@ -55,36 +88,8 @@
             </table>
         </div>
     </section>
-    <section class="contact-us">
-        <h2>Contact Us</h2>
-    <form action="#" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="phone">Phone:</label>
-        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
-        <small>Enter a 10-digit phone number (numbers only).</small>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-
-        <label>Subscribe to Newsletter:</label>
-        <input type="radio" id="yes" name="newsletter" value="yes" required>
-        <label for="yes">Yes</label>
-        <input type="radio" id="no" name="newsletter" value="no">
-        <label for="no">No</label>
-
-        <label for="sample">This is a sample:</label>
-        <input type="checkbox" id="sample" name="sample">
-
-        <input type="submit" value="Submit">
-    </form>
-    </section>
     <footer>
-        <!-- Your footer content goes here -->
+        <p>Copyright © 2023 HTML Cafe. All rights reserved. Don't steal our code or we'll haunt your dreams.</p>
     </footer>
 </body>
 </html>
