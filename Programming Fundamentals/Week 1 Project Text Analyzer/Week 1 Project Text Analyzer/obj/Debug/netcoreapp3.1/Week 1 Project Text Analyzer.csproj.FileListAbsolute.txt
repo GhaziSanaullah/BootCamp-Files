@@ -1,0 +1,34 @@
+C:\Users\4830\Desktop\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.csproj.AssemblyReference.cache
+C:\Users\4830\Desktop\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4830\Desktop\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.AssemblyInfoInputs.cache
+C:\Users\4830\Desktop\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.AssemblyInfo.cs
+C:\Users\4830\Desktop\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.csproj.CoreCompileInputs.cache
+C:\Users\4830\Desktop\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\bin\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.exe
+C:\Users\4830\Desktop\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\bin\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.deps.json
+C:\Users\4830\Desktop\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\bin\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.runtimeconfig.json
+C:\Users\4830\Desktop\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\bin\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.runtimeconfig.dev.json
+C:\Users\4830\Desktop\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\bin\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.dll
+C:\Users\4830\Desktop\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\bin\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.pdb
+C:\Users\4830\Desktop\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.dll
+C:\Users\4830\Desktop\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.pdb
+C:\Users\4830\Desktop\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.genruntimeconfig.cache
+C:\Users\4830\Desktop\Projects\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\bin\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.exe
+C:\Users\4830\Desktop\Projects\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\bin\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.deps.json
+C:\Users\4830\Desktop\Projects\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\bin\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.runtimeconfig.json
+C:\Users\4830\Desktop\Projects\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\bin\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.runtimeconfig.dev.json
+C:\Users\4830\Desktop\Projects\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\bin\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.dll
+C:\Users\4830\Desktop\Projects\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\bin\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.pdb
+C:\Users\4830\Desktop\Projects\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.csproj.AssemblyReference.cache
+C:\Users\4830\Desktop\Projects\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4830\Desktop\Projects\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.AssemblyInfoInputs.cache
+C:\Users\4830\Desktop\Projects\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.AssemblyInfo.cs
+C:\Users\4830\Desktop\Projects\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.csproj.CoreCompileInputs.cache
+C:\Users\4830\Desktop\Projects\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.dll
+C:\Users\4830\Desktop\Projects\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.pdb
+C:\Users\4830\Desktop\Projects\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.genruntimeconfig.cache
+\\dcshare\BootCamp3\4830 - Ghazi Sanaullah\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.csproj.AssemblyReference.cache
+\\dcshare\BootCamp3\4830 - Ghazi Sanaullah\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.GeneratedMSBuildEditorConfig.editorconfig
+\\dcshare\BootCamp3\4830 - Ghazi Sanaullah\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.AssemblyInfoInputs.cache
+\\dcshare\BootCamp3\4830 - Ghazi Sanaullah\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.AssemblyInfo.cs
+\\dcshare\BootCamp3\4830 - Ghazi Sanaullah\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.csproj.CoreCompileInputs.cache
+\\dcshare\BootCamp3\4830 - Ghazi Sanaullah\Week 1 Project Text Analyzer\Week 1 Project Text Analyzer\obj\Debug\netcoreapp3.1\Week 1 Project Text Analyzer.pdb

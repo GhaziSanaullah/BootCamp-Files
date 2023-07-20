@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Week 1 Project Text Analyzer/1.0.0": {
+        "runtime": {
+          "Week 1 Project Text Analyzer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Week 1 Project Text Analyzer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
