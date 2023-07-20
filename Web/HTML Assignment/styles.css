@@ -1,0 +1,71 @@
+body 
+{
+    margin: 0;
+}
+.banner
+{
+    background-image: url(background.jpg);
+    background-size: 3000px 330px;
+    color: rgb(100, 31, 4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 30px;
+    height: 400px;
+    border-radius: 15px;
+}
+.left-text 
+{
+    text-align: left;
+    font-size: 35px;
+}
+.coffee-mug 
+{
+    align-items: right;
+}
+.center-image
+{
+    display: inline-block;
+}
+.border
+{
+    background-color: rgb(129, 68, 10);
+    color: #fff;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
+.mission-statement
+{
+    background-color: rgb(219, 166, 20);
+    color: rgb(138, 58, 27);
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 200px;
+}
+.mission-statement p
+{
+    font-weight: bold;
+    font-family: cursive;
+}
+table 
+{
+    width: 100%; /* Adjust the table width as needed */
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc; /* Add borders to the table cells */
+    padding: 8px; /* Add some padding to the cells for better spacing */
+    text-align: left; /* Align table data to the left */
+}
+
+th {
+    font-weight: bold; /* Make the header cells bold */
+    background-color: #f2f2f2; /* Add a background color to header cells */
+}
