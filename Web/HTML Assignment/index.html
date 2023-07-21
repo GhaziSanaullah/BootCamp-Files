@@ -12,6 +12,7 @@
     <header class="top-bar">
         <p>Open Monday-Saturday 8am-9pm • Sundays 8am-4pm</p>
     </header>
+    <section id="top"></section>
     <section class="logo-navbar">
         <div id="logo-div">
             <img src="logo.png">
@@ -27,10 +28,48 @@
             </ul>
         </nav>
     </section>
-    <section class="coffeebanner"><img src="coffeebanner.png"></section>
+    <section class="coffeebanner"><img src="coffeebanner.jpeg"></section>
     <section class="welcome">
         <h1>WELCOME</h1>
         <p class="welcome-para">Welcome to HTML Cafe, where the coffee is strong and the code is delicious. We've got everything you need to fuel your coding addiction, from open source bagels to free range CSS. Our menu is full of HTML puns, so you'll never get bored. Try our "div-er Dan's" breakfast sandwich, or our "href-y Larry" burger. And for dessert, don't forget our "cookie monster" cookies. We also have a full bar, so you can relax and unwind after a long day of coding. Our signature drink is the "CSS cocktail", which is made with gin, lime, and CSS3. So come on down to HTML Cafe and get your fill of code and caffeine. We'll see you there!</p>
+    </section>
+    <section id="lounge">
+        <h1>Our Lounge</h1>
+        <p>Welcome to the HTML Lounge, where tags party hard and elements kick back in style! Our resident developers are cooler than a cucumber validator, and our CSS knows how to groove like nobody's business. At the HTML Lounge, we're all about serving up some serious code cocktails – shaken, not stirred. And if you thought your Visual Studio screen was just a playground for nerdy syntax, think again! It's where HTML and CSS become dance partners, and JavaScript shows off its moves like a pro. So grab a seat, order your favorite IDE-inspired beverage, and get ready for a night of coding and laughter that will leave you saying, "Who needs a social life when you've got the HTML Lounge!".</p>
+        <div class="image-container">
+            <img src="lounge.png">
+            <div class="text-overlay">
+                <h3>The HTML Playground</h3>
+            </div>
+        </div>
+    </section>
+    <section class="major-items">
+        <div id="about-head">
+            <h1>The HTML CAFE IS....</h1>
+        </div>
+        <div id="about-line">The HTML Cafe boasts a wide range of activities and events. Never a dull moment here!</div>
+        <div id="table-head">
+            <table>
+                <tr>
+                    <td><img src="taco.jpg"></td>
+                    <td><img src="pastry.jpg"></td>
+                    <td><img src="cup.jpg"></td>
+                    <td><img src="joker.jpg"></td>
+                </tr>
+                <tr>
+                    <td><h5>TEX-MEX</h5></td>
+                    <td><h5>BAKERY</h5></td>
+                    <td><h5>COFFEE</h5></td>
+                    <td><h5>EVENTS</h5></td>
+                </tr>
+                <tr>
+                    <td><p>Welcome to The HTML Cafe: Where code collides with kolache, and taco-tasting espresso fuels your HTML adventure! 🍩☕️🌮 Get ready to code deliciously! 😎</p></td>
+                    <td><p>Freshly baked treats, 7 days a week! Check our pastry case and resist if you dare! HTML, CSS, JavaScript - the web's magical trio! Join us at The HTML Cafe! 🍰☕️🎩</p></td>
+                    <td><p>We proudly serve locally roasted coffee from The Coffee Fox Roasting Co. Just like crafting HTML code, we take great care and consideration in sourcing our coffees. Join us for a delightful brew and a code-tastic experience! ☕️🦊</p></td>
+                    <td><p>Beyond the coffee, The HTML Cafe is a vibrant hub! Local art adorns our gallery, live music rocks the stage, and Saturdays sizzle with fire pits. Join us for an unforgettable experience! ☕️🎨🎶🔥</p></td>
+                </tr>
+            </table>
+        </div>
     </section>
     <section class="bottom">
         <div class="general info">
@@ -61,32 +100,19 @@
                 
                     <label for="phone">Phone No:</label>
                     <input type="tel" id="phone" name="phone" required>
+                    <label for="weekly">Weekly</label>
+                    <input type="radio" id="weekly" name="newsletter" value="weekly">
+
+                    <label for="monthly">Monthly</label>
+                    <input type="radio" id="monthly" name="newsletter" value="monthly">
+
+                    <label for="promotional">I want promotional emails too:</label>
+                    <input type="checkbox" id="promotional" name="promotional">
                 
                     <button type="submit">Submit</button>
                 </form>
             </div>
         </div>  
-    </section>
-    <section class="major-items">
-        <div>
-            <table>
-                <tr>
-                    <th>Item</th>
-                    <th>Quantity</th>
-                    <th>Price</th>
-                </tr>
-                <tr>
-                    <td>Coffee</td>
-                    <td>2</td>
-                    <td>$5.00</td>
-                </tr>
-                <tr>
-                    <td>Tea</td>
-                    <td>3</td>
-                    <td>$3.50</td>
-                </tr>
-            </table>
-        </div>
     </section>
     <footer>
         <p>Copyright © 2023 HTML Cafe. All rights reserved. Don't steal our code or we'll haunt your dreams.</p>
