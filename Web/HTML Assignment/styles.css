@@ -9,6 +9,9 @@ body
     text-align: center;
     padding: 1px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .logo-navbar
 {
@@ -75,7 +78,6 @@ li:nth-child(2) {
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 50px;
-    padding-bottom: 60px;
     text-align:justify;
 }
 .welcome h1
@@ -111,7 +113,7 @@ li:nth-child(2) {
     width: 80%;
     color: black;
     display: block;
-    margin: 20px;
+    margin: 13px;
 }
 .form button 
 {
@@ -127,6 +129,13 @@ li:nth-child(2) {
 {
     background-color: #bd0b0b;
 }
+.major-items
+{
+    padding: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+}
 footer 
 {
     background-color: #000;
@@ -136,17 +145,89 @@ footer
 }
 table 
 {
-    width: 100%; /* Adjust the table width as needed */
+    width: 100%;
     border-collapse: collapse;
 }
-
-th, td {
-    border: 1px solid #ccc; /* Add borders to the table cells */
-    padding: 8px; /* Add some padding to the cells for better spacing */
-    text-align: left; /* Align table data to the left */
+td
+{
+    text-align: center;
+    border: 2px solid #fa0202;
+}
+td p
+{
+    padding: 10px;
+}
+th 
+{
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+#table-head img 
+{
+    max-width: 250px; /* Set a maximum width for the images */
+    max-height: 250px; /* Set a maximum height for the images */
+}
+#about-line
+{
+    padding: 10px;
+}
+#top
+{
+    background-color: #c60909;
+    padding: 29px;
+}
+#lounge 
+{
+    position: relative;
 }
 
-th {
-    font-weight: bold; /* Make the header cells bold */
-    background-color: #f2f2f2; /* Add a background color to header cells */
+.image-container
+ {
+    position: relative;
+    display: inline-block;
+    opacity: 1;
+    padding-left: 200px;
+    padding-right: 200px;
+    transition: opacity 0.5s ease;
+}
+
+.image-container img
+{
+    max-width: 100%;
+    max-height: auto;
+}
+
+.text-overlay 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.image-container:hover 
+{
+    opacity: 0.7;
+}
+
+.image-container:hover .text-overlay 
+{
+    opacity: 1;
+}
+#lounge h1
+{
+    text-align: center;
+}
+#lounge p
+{
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align:justify;
+    color: #6e6d6d;
+    line-height: 3;
 }
