@@ -17,10 +17,10 @@
         <div id="logo-div">
             <img src="logo.png">
         </div>
-        <nav>
+        <nav id="nav-links">
             <ul>
                 <li><button class="order-online">ORDER ONLINE</button></li>
-                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="menu">MENU</a></li>
                 <li><a href="about">ABOUT</a></li>
                 <li><a href="events">EVENTS</a></li>
@@ -71,6 +71,15 @@
             </table>
         </div>
     </section>
+    <sectio>
+    <div id="image-switcher">
+        <img class="switchable-image" src="image1.gif" alt="Image 1">
+        <img class="switchable-image" src="image2.jpg" alt="Image 2">
+        <img class="switchable-image" src="image3.gif" alt="Image 1">
+        <button id="prev-btn">Previous</button>
+        <button id="next-btn">Next</button>
+    </div>
+</sectio>
     <section class="bottom">
         <div class="general info">
             <h1>THE HTML CAFE</h1>
@@ -90,21 +99,22 @@
         </div>
         <div class="newslettersubs">
             <h1>NEWSLETTER</h1>
-            <div class="form">
+            <form id="newsletter-form">
                 <form>
                     <label for="email">Email Address:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input id="email" name="email" required>
                 
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
                 
                     <label for="phone">Phone No:</label>
-                    <input type="tel" id="phone" name="phone" required>
+                    <input id="phone" name="phone" required>
+
                     <label for="weekly">Weekly</label>
-                    <input type="radio" id="weekly" name="newsletter" value="weekly">
+                    <input type="radio" id="weekly" name="newsletter" value="weekly" required>
 
                     <label for="monthly">Monthly</label>
-                    <input type="radio" id="monthly" name="newsletter" value="monthly">
+                    <input type="radio" id="monthly" name="newsletter" value="monthly" required>
 
                     <label for="promotional">I want promotional emails too:</label>
                     <input type="checkbox" id="promotional" name="promotional">
@@ -117,5 +127,6 @@
     <footer>
         <p>Copyright © 2023 HTML Cafe. All rights reserved. Don't steal our code or we'll haunt your dreams.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
