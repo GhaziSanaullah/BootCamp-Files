@@ -42,11 +42,11 @@ li a
     padding: 16px;
     text-decoration: none;
 }
-li a:hover:not(.active)
+/*li a:hover:not(.active)
 {
     color: #fff;
     background-color: #796f6f;
-}
+}*/
 li:nth-child(2) {
     padding-left: 15px;
 }
@@ -100,7 +100,7 @@ li:nth-child(2) {
     background-color: #8d6161;
     justify-content: space-between;
 }
-.form 
+#newsletter-form
 {
     border: 1px solid #fff;
     padding: 10px;
@@ -108,14 +108,14 @@ li:nth-child(2) {
     width: 500px;
     border-radius: 20px;
 }
-.form label,.form input 
+#newsletter-form label,#newsletter-form input 
 {
     width: 80%;
     color: black;
     display: block;
     margin: 13px;
 }
-.form button 
+#newsletter-form button 
 {
     background-color: #c60909;
     color: white;
@@ -125,7 +125,7 @@ li:nth-child(2) {
     border-radius: 5px;
     margin-left: 20px;
 }
-.form button:hover 
+#newsletter-form button:hover 
 {
     background-color: #bd0b0b;
 }
