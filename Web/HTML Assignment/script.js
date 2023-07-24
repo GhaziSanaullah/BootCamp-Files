@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () =>
         }
       });
     }
-  
+    
     // Function to switch to the previous image
     function showPrevImage() 
     {
@@ -114,4 +114,59 @@ document.addEventListener('DOMContentLoaded', () =>
     // Form is valid, allow form submission
     return true;
   }
+  document.addEventListener("DOMContentLoaded", function() 
+  {
+    const addRowButton = document.getElementById("add-row-btn");
+    addRowButton.addEventListener("click", addNewRow);
+    function addNewRow() 
+    {
+        const coffeeTable = document.getElementById("coffee-table").getElementsByTagName('tbody')[0];
+        const newRow = document.createElement("tr");
+        newRow.innerHTML = 
+        `
+        <td>M     ocha</td>
+        <td>$69.99</td>
+        `;
+        coffeeTable.appendChild(newRow);
+    }
+  });
+
+    // Function to sort the table based on the selected column index
+    function sortTable(columnIndex) 
+    {
+    const table = document.querySelector('.abc');
+    const rows = Array.from(table.querySelectorAll('tbody tr'));
+  
+    // Sort the rows based on the content of the selected column
+    rows.sort((rowA, rowB) => 
+    {
+      const cellA = rowA.querySelectorAll('td')[columnIndex].textContent;
+      const cellB = rowB.querySelectorAll('td')[columnIndex].textContent;
+      
+      if (!isNaN(parseFloat(cellA)) && !isNaN(parseFloat(cellB))) 
+      {
+        return parseFloat(cellA) - parseFloat(cellB);
+      } 
+      else 
+      {
+        return cellA.localeCompare(cellB);
+      }
+    });
+  
+    // Remove existing rows from the table
+    table.querySelectorAll('tbody tr').forEach(row => row.remove());
+  
+    // Append the sorted rows back to the table
+    rows.forEach(row => table.querySelector('tbody').appendChild(row));
+    }
+  
+  // Add event listeners to the sortable table headers
+  document.addEventListener('DOMContentLoaded', function() {
+    const sortableHeaders = document.querySelectorAll('.abc th.sortable');
+    sortableHeaders.forEach((header, index) => {
+      header.addEventListener('click', function() {
+        sortTable(index);
+      });
+    });
+  });  
   
