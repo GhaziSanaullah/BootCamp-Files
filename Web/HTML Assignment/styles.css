@@ -231,3 +231,7 @@ th
     color: #6e6d6d;
     line-height: 3;
 }
+.abc th 
+{
+    cursor: pointer;
+}
