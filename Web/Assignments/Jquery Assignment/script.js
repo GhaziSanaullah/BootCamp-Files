@@ -10,33 +10,57 @@ $(document).ready(function ()
 });
 $("#Load_More").click(function () 
 {
-    // Call the function to fetch and display the next set of blog posts
-    currentPage++;
-    loadBlogPosts();
+    if(currentPage==20)
+    {
+        currentPage=20;
+        alert("You have reached last page cant go further");
+    }
+    else
+    {
+        // Call the function to fetch and display the next set of blog posts
+        currentPage++;
+        loadBlogPosts();
+    };
 });
 // Use jQuery to handle the click event on the "Load More" button
 $("#next").click(function () 
 {
-    // Call the function to fetch and display the next set of blog posts
-    currentPage++;
-    blogPostsContainer.empty();
-    loadBlogPosts();
+    if(currentPage==20)
+    {
+        currentPage=20;
+        alert("You have reached last page cant go further");
+    }
+    else
+    {
+        // Call the function to fetch and display the next set of blog posts
+        currentPage++;
+        blogPostsContainer.empty();
+        loadBlogPosts();
+    };
 });
 $("#prev").click(function () 
 {
-    // Call the function to fetch and display the next set of blog posts
-    currentPage--;
-    blogPostsContainer.empty();
-    loadBlogPosts();
+    if(currentPage<=1)
+    {
+        currentPage=1;
+        alert("You have reached page 1 cant go back");
+    }
+    else
+    {
+        // Call the function to fetch and display the next set of blog posts
+        currentPage--;
+        blogPostsContainer.empty();
+        loadBlogPosts();
+    };
 });
-
 // Function to fetch blog posts from the server and display them
 function loadBlogPosts() 
 {
     loadingSpinner.show();
     boody.hide;
     // Send an AJAX request to the server endpoint
-    $.ajax({
+    $.ajax
+    ({
         url: "https://jsonplaceholder.typicode.com/posts",
         type: "GET",
         data: 
@@ -46,8 +70,10 @@ function loadBlogPosts()
         },
         success: function (data) 
         {
-            setTimeout(function () {
-                loadingSpinner.hide();})
+            setTimeout(function () 
+            {
+                loadingSpinner.hide();
+            })
             // If the AJAX request is successful, handle the response data
             // Loop through the data array and dynamically add the new blog posts
             data.forEach(function (post) 
