@@ -1,0 +1,55 @@
+HTML CODE Angular TODOLIST
+<h1>{{ title }}</h1>
+<input type="text" placeholder="Enter New Task" #task>
+<br>
+<br>
+<button (click)="addTask(task.value); task.value = '';">Add New Task</button>
+<br>
+<br>
+
+<p>Number of Completed Tasks: {{ getCompletedTaskCount() }}</p>
+<br>
+<br>
+
+<ul *ngFor="let item of list" [style.textDecoration]="item.completed ? 'line-through' : 'none'">
+  <li>{{item.name}} 
+  <button (click)="toggleComplete(item.id)">
+    {{ item.completed ? 'Uncomplete' : 'Complete' }}
+  </button>
+  <button (click)="removeTask(item.id)">Remove</button></li>
+</ul>
+Component Code
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent 
+{
+  title = 'hello-world Angular Made by Ghazi';
+
+  list:any[]=[];
+  addTask(item:string)
+  {
+    console.warn(item);
+    this.list.push({id:this.list.length,name:item})
+  }
+  removeTask(id:number)
+  {
+    this.list=this.list.filter(item=>item.id!==id);
+  }
+  toggleComplete(id: number) 
+  {
+    this.list = this.list.map(item => {
+      if (item.id === id) {
+        return { ...item, completed: !item.completed };
+      }
+      return item;
+    });
+  }
+  getCompletedTaskCount(): number {
+    return this.list.filter(item => item.completed).length;
+  }
+}
